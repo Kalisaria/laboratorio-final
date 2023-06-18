@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=”es”>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/CSS" href="style.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+   
+  <div class="form">
+    <form id="Form" name="Form" action="login.php" method="POST">
+
+      <legend>Create Account</legend>
+      <br>
+
+
+      <p>Nombre</p>
+      <input type="text" name="N" id="Nombre" >
+        <div class="error-message" id="nameError"></div>
+
+        <p>Apellido</p>
+      <input type="text" name="N" id="Apellido" >
+        <div class="error-message" id="apellidoError"></div>
+
+      <p>Email</p>
+      <input type="email" name="G" " id=" email" autofocus maxlength="15" required>
+
+
+
+      <p>Contraseña</p>
+      <input type="password" name="C" id="contraseña" autofocus maxlength="8" required>
+
+
+      <p>Repetir contraseña</p>
+      <input type="password" name="RC" id="Rcontraseña" autofocus maxlength="8" required>
+
+
+      <input type="submit" id="button" value="Enviar">
+
+
+    </form>
+  </div>
+
+</body>
+
+</html>
